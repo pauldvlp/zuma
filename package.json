@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b && vite build",
-    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "commit": "commit",
     "dev": "vite",
     "lint": "eslint .",
