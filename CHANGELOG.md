@@ -1,5 +1,18 @@
+# Changelog
+
+## 0.2.0 (2025-07-02)
+
+* feat: add support for release-it ([c70ff5a](https://github.com/pauldvlp/zuma/commit/c70ff5a))
+
+## 0.2.0 (2025-07-02)
+
+* feat: add support for release-it ([c70ff5a](https://github.com/pauldvlp/zuma/commit/c70ff5a))
+
+
+
 ## <small>0.1.1 (2025-07-02)</small>
 
+* 0.1.1 ([ad7487f](https://github.com/pauldvlp/zuma/commit/ad7487f))
 * chore: release a minor version ([8ea90ca](https://github.com/pauldvlp/zuma/commit/8ea90ca))
 * chore: switch changelog to version script ([b2fe0e6](https://github.com/pauldvlp/zuma/commit/b2fe0e6))
 
@@ -26,6 +39,3 @@
 * 0.0.1 ([989e6ac](https://github.com/pauldvlp/zuma/commit/989e6ac))
 * chore: release a patch version ([f2ef3a7](https://github.com/pauldvlp/zuma/commit/f2ef3a7))
 * chore: the start of the zuma app ([246dd7f](https://github.com/pauldvlp/zuma/commit/246dd7f))
-
-
-
