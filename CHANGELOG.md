@@ -1,3 +1,10 @@
+## <small>0.1.1 (2025-07-02)</small>
+
+* chore: release a minor version ([8ea90ca](https://github.com/pauldvlp/zuma/commit/8ea90ca))
+* chore: switch changelog to version script ([b2fe0e6](https://github.com/pauldvlp/zuma/commit/b2fe0e6))
+
+
+
 ## 0.1.0 (2025-07-02)
 
 * 0.1.0 ([da43d45](https://github.com/pauldvlp/zuma/commit/da43d45))
