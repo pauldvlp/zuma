@@ -1,3 +1,11 @@
+## 0.1.0 (2025-07-02)
+
+* 0.1.0 ([da43d45](https://github.com/pauldvlp/zuma/commit/da43d45))
+* feat(vercel): add support for analytics ([85c3431](https://github.com/pauldvlp/zuma/commit/85c3431))
+* chore: release a patch version ([11f8e1e](https://github.com/pauldvlp/zuma/commit/11f8e1e))
+
+
+
 ## <small>0.0.2 (2025-07-02)</small>
 
 * 0.0.2 ([128a6d8](https://github.com/pauldvlp/zuma/commit/128a6d8))
