@@ -1,5 +1,5 @@
+import { VersionBadge } from '@/components/app/version-badge'
 import { GitHub } from '@/components/icons/github'
-import { Badge } from '@/components/ui/badge'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 
 export const Header = () => {
@@ -8,7 +8,7 @@ export const Header = () => {
       <header className='max-w-5xl mx-auto h-20 flex items-center justify-between'>
         <h2 className='text-lg font-semibold flex gap-1 items-center'>
           Zuma
-          <Badge variant='secondary'>Beta</Badge>
+          <VersionBadge />
         </h2>
         <Tooltip>
           <TooltipTrigger asChild>
