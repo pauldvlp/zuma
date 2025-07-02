@@ -1,3 +1,6 @@
 onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild
+
+overrides:
+  "conventional-changelog-conventionalcommits": "8.0.0"
