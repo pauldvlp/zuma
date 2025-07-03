@@ -1,12 +1,18 @@
 # Changelog
 
+## <small>0.2.2 (2025-07-03)</small>
+
+* fix: update overrides ([22768da](https://github.com/pauldvlp/zuma/commit/22768da))
+
+## <small>0.2.2 (2025-07-03)</small>
+
+* fix: update overrides ([22768da](https://github.com/pauldvlp/zuma/commit/22768da))
+
+
+
 ## <small>0.2.1 (2025-07-03)</small>
 
-* refactor: add version badge based on package.json ([f8b68d8](https://github.com/pauldvlp/zuma/commit/f8b68d8))
-* refactor: implement lazy loading and loading state ([6ef8c68](https://github.com/pauldvlp/zuma/commit/6ef8c68))
-
-## <small>0.2.1 (2025-07-03)</small>
-
+* chore(release): v0.2.1 ([bf0d6b0](https://github.com/pauldvlp/zuma/commit/bf0d6b0))
 * refactor: add version badge based on package.json ([f8b68d8](https://github.com/pauldvlp/zuma/commit/f8b68d8))
 * refactor: implement lazy loading and loading state ([6ef8c68](https://github.com/pauldvlp/zuma/commit/6ef8c68))
 
