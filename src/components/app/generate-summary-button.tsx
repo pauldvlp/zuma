@@ -1,7 +1,6 @@
 import { Button, type ButtonProps } from '@/components/ui/button'
 import { useAppContext } from '@/hooks/use-app-context'
 import { useSearch } from '@/hooks/use-search'
-import { generateSummary } from '@/lib/google-genai'
 import { useState, type FC } from 'react'
 import { toast } from 'sonner'
 
@@ -17,8 +16,9 @@ export const GenerateSummaryButton: FC<ButtonProps> = (props) => {
 
     try {
       toast.promise(
-        () => {
+        async () => {
           setLoading(true)
+          const { generateSummary } = await import('../../lib/google-genai')
           return generateSummary(repo, release, abortController.signal)
         },
         {

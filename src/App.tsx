@@ -1,12 +1,19 @@
 import { AppProvider } from '@/components/app/app-provider'
 import { Footer } from '@/components/app/footer'
-import { GenerateSummaryButton } from '@/components/app/generate-summary-button'
 import { Header } from '@/components/app/header'
-import { SearchProvider } from '@/components/app/search-provider'
-import { SearchReleases } from '@/components/app/search-releases'
-import { SearchRepos } from '@/components/app/search-repos'
+import { SearchContainerSkeleton } from '@/components/app/search-container-skeleton'
 import { SummaryViewer } from '@/components/app/summary-viewer'
 import { Toaster } from '@/components/ui/sonner'
+import { lazy, Suspense } from 'react'
+
+async function delayForDemo<T = unknown>(promise: Promise<T>) {
+  await new Promise((resolve) => {
+    setTimeout(resolve, 2000)
+  })
+  return await promise
+}
+
+const SearchContainer = lazy(() => delayForDemo(import('./components/app/search-container')))
 
 export const App = () => {
   return (
@@ -18,14 +25,9 @@ export const App = () => {
           <p className='max-w-[65ch]'>Genera resúmenes de las releases de repositorios de GitHub con IA.</p>
         </section>
         <section className='grid md:grid-cols-5 gap-2 w-full max-w-3xl'>
-          <SearchProvider>
-            <SearchRepos className='md:col-span-3 h-12 md:text-base' />
-            <SearchReleases className='h-12 md:col-span-2 md:text-base' />
-            <GenerateSummaryButton
-              className='h-12 md:text-base md:col-span-5'
-              variant='outline'
-            />
-          </SearchProvider>
+          <Suspense fallback={<SearchContainerSkeleton />}>
+            <SearchContainer />
+          </Suspense>
         </section>
       </main>
       <SummaryViewer />
