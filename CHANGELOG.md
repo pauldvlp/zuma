@@ -1,11 +1,20 @@
 # Changelog
 
+## <small>0.2.1 (2025-07-03)</small>
+
+* refactor: add version badge based on package.json ([f8b68d8](https://github.com/pauldvlp/zuma/commit/f8b68d8))
+* refactor: implement lazy loading and loading state ([6ef8c68](https://github.com/pauldvlp/zuma/commit/6ef8c68))
+
+## <small>0.2.1 (2025-07-03)</small>
+
+* refactor: add version badge based on package.json ([f8b68d8](https://github.com/pauldvlp/zuma/commit/f8b68d8))
+* refactor: implement lazy loading and loading state ([6ef8c68](https://github.com/pauldvlp/zuma/commit/6ef8c68))
+
+
+
 ## 0.2.0 (2025-07-02)
 
-* feat: add support for release-it ([c70ff5a](https://github.com/pauldvlp/zuma/commit/c70ff5a))
-
-## 0.2.0 (2025-07-02)
-
+* chore(release): v0.2.0 ([3f98b27](https://github.com/pauldvlp/zuma/commit/3f98b27))
 * feat: add support for release-it ([c70ff5a](https://github.com/pauldvlp/zuma/commit/c70ff5a))
 
 
