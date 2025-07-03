@@ -12,155 +12,155 @@ importers:
   .:
     dependencies:
       '@fontsource-variable/bricolage-grotesque':
-        specifier: ^5.2.8
+        specifier: 5.2.8
         version: 5.2.8
       '@google/genai':
-        specifier: ^1.8.0
+        specifier: 1.8.0
         version: 1.8.0
       '@radix-ui/react-dialog':
-        specifier: ^1.1.14
+        specifier: 1.1.14
         version: 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-label':
-        specifier: ^2.1.7
+        specifier: 2.1.7
         version: 2.1.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-popover':
-        specifier: ^1.1.14
+        specifier: 1.1.14
         version: 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-slot':
-        specifier: ^1.2.3
+        specifier: 1.2.3
         version: 1.2.3(@types/react@19.1.8)(react@19.1.0)
       '@radix-ui/react-tooltip':
-        specifier: ^1.2.7
+        specifier: 1.2.7
         version: 1.2.7(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@vercel/analytics':
-        specifier: ^1.5.0
+        specifier: 1.5.0
         version: 1.5.0(react@19.1.0)
       class-variance-authority:
-        specifier: ^0.7.1
+        specifier: 0.7.1
         version: 0.7.1
       clsx:
-        specifier: ^2.1.1
+        specifier: 2.1.1
         version: 2.1.1
       cmdk:
-        specifier: ^1.1.1
+        specifier: 1.1.1
         version: 1.1.1(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       highlight.js:
-        specifier: ^11.11.1
+        specifier: 11.11.1
         version: 11.11.1
       lucide-react:
-        specifier: ^0.525.0
+        specifier: 0.525.0
         version: 0.525.0(react@19.1.0)
       next-themes:
-        specifier: ^0.4.6
+        specifier: 0.4.6
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
-        specifier: ^19.1.0
+        specifier: 19.1.0
         version: 19.1.0
       react-dom:
-        specifier: ^19.1.0
+        specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       react-markdown:
-        specifier: ^10.1.0
+        specifier: 10.1.0
         version: 10.1.0(@types/react@19.1.8)(react@19.1.0)
       rehype-highlight:
-        specifier: ^7.0.2
+        specifier: 7.0.2
         version: 7.0.2
       rxjs:
-        specifier: ^7.8.2
+        specifier: 7.8.2
         version: 7.8.2
       sonner:
-        specifier: ^2.0.5
+        specifier: 2.0.5
         version: 2.0.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tailwind-merge:
-        specifier: ^3.3.1
+        specifier: 3.3.1
         version: 3.3.1
       use-debounce:
-        specifier: ^10.0.5
+        specifier: 10.0.5
         version: 10.0.5(react@19.1.0)
       use-http:
-        specifier: ^1.0.28
+        specifier: 1.0.28
         version: 1.0.28(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@commitlint/cli':
-        specifier: ^19.8.1
+        specifier: 19.8.1
         version: 19.8.1(@types/node@24.0.10)(typescript@5.8.3)
-      '@commitlint/config-conventional':
-        specifier: ^19.8.1
-        version: 19.8.1
       '@commitlint/prompt-cli':
-        specifier: ^19.8.1
+        specifier: 19.8.1
         version: 19.8.1(@types/node@24.0.10)(typescript@5.8.3)
       '@eslint/js':
-        specifier: ^9.30.1
+        specifier: 9.30.1
         version: 9.30.1
       '@release-it/conventional-changelog':
-        specifier: ^10.0.1
+        specifier: 10.0.1
         version: 10.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.0)(release-it@19.0.3(@types/node@24.0.10))
       '@stylistic/eslint-plugin':
-        specifier: ^5.1.0
+        specifier: 5.1.0
         version: 5.1.0(eslint@9.30.1(jiti@2.4.2))
       '@tailwindcss/typography':
-        specifier: ^0.5.16
+        specifier: 0.5.16
         version: 0.5.16(tailwindcss@4.1.11)
       '@tailwindcss/vite':
-        specifier: ^4.1.11
+        specifier: 4.1.11
         version: 4.1.11(vite@7.0.0(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))
       '@types/node':
-        specifier: ^24.0.10
+        specifier: 24.0.10
         version: 24.0.10
       '@types/react':
-        specifier: ^19.1.8
+        specifier: 19.1.8
         version: 19.1.8
       '@types/react-dom':
-        specifier: ^19.1.6
+        specifier: 19.1.6
         version: 19.1.6(@types/react@19.1.8)
       '@vitejs/plugin-react':
-        specifier: ^4.6.0
+        specifier: 4.6.0
         version: 4.6.0(vite@7.0.0(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))
       babel-plugin-react-compiler:
         specifier: 19.1.0-rc.2
         version: 19.1.0-rc.2
+      commitlint-config-git-commit-emoji:
+        specifier: ^1.0.0
+        version: 1.0.0
       eslint:
-        specifier: ^9.30.1
+        specifier: 9.30.1
         version: 9.30.1(jiti@2.4.2)
       eslint-plugin-no-relative-import-paths:
-        specifier: ^1.6.1
+        specifier: 1.6.1
         version: 1.6.1
       eslint-plugin-react-hooks:
-        specifier: ^5.2.0
+        specifier: 5.2.0
         version: 5.2.0(eslint@9.30.1(jiti@2.4.2))
       eslint-plugin-react-refresh:
-        specifier: ^0.4.20
+        specifier: 0.4.20
         version: 0.4.20(eslint@9.30.1(jiti@2.4.2))
       globals:
-        specifier: ^16.3.0
+        specifier: 16.3.0
         version: 16.3.0
       husky:
-        specifier: ^9.1.7
+        specifier: 9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^16.1.2
+        specifier: 16.1.2
         version: 16.1.2
       release-it:
-        specifier: ^19.0.3
+        specifier: 19.0.3
         version: 19.0.3(@types/node@24.0.10)
       release-it-pnpm:
-        specifier: ^4.6.6
+        specifier: 4.6.6
         version: 4.6.6(release-it@19.0.3(@types/node@24.0.10))
       tailwindcss:
-        specifier: ^4.1.11
+        specifier: 4.1.11
         version: 4.1.11
       tw-animate-css:
-        specifier: ^1.3.4
+        specifier: 1.3.4
         version: 1.3.4
       typescript:
         specifier: ~5.8.3
         version: 5.8.3
       typescript-eslint:
-        specifier: ^8.35.1
+        specifier: 8.35.1
         version: 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       vite:
-        specifier: ^7.0.0
+        specifier: 7.0.0
         version: 7.0.0(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0)
 
 packages:
@@ -252,10 +252,6 @@ packages:
     resolution: {integrity: sha512-LXUdNIkspyxrlV6VDHWBmCZRtkEVRpBKxi2Gtw3J54cGWhLCTouVD/Q6ZSaSvd2YaDObWK8mDjrz3TIKtaQMAA==}
     engines: {node: '>=v18'}
     hasBin: true
-
-  '@commitlint/config-conventional@19.8.1':
-    resolution: {integrity: sha512-/AZHJL6F6B/G959CsMAzrPKKZjeEiAVifRyEwXxcT6qtqbPwGw+iQxmNS+Bu+i09OCtdNRW6pNpBvgPrtMr9EQ==}
-    engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.8.1':
     resolution: {integrity: sha512-0jvJ4u+eqGPBIzzSdqKNX1rvdbSU1lPNYlfQQRIFnBgLy26BtC0cFnr7c/AyuzExMxWsMOte6MkTi9I3SQ3iGQ==}
@@ -1749,6 +1745,9 @@ packages:
   commander@14.0.0:
     resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
     engines: {node: '>=20'}
+
+  commitlint-config-git-commit-emoji@1.0.0:
+    resolution: {integrity: sha512-AnWvAu50BZ2ikzlsECKya4nAvPdu62RC3U/8wmb8TlSiLbaLrz10jV8On/8tc2UW1C9ckuLQx3WkLhaiFcvPhg==}
 
   compare-func@2.0.0:
     resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==}
@@ -3959,11 +3958,6 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.8.1':
-    dependencies:
-      '@commitlint/types': 19.8.1
-      conventional-changelog-conventionalcommits: 8.0.0
-
   '@commitlint/config-validator@19.8.1':
     dependencies:
       '@commitlint/types': 19.8.1
@@ -5405,6 +5399,8 @@ snapshots:
   comma-separated-tokens@2.0.3: {}
 
   commander@14.0.0: {}
+
+  commitlint-config-git-commit-emoji@1.0.0: {}
 
   compare-func@2.0.0:
     dependencies:
