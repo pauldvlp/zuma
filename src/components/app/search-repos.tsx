@@ -11,12 +11,16 @@ import { useState, type ChangeEventHandler, type FC } from 'react'
 import { useDebouncedCallback } from 'use-debounce'
 import useFetch from 'use-http'
 
+import { throw_error_by_status_code, type HttpStatusCode, type ExpectedError, isSentinelError } from 'http-sentinel'
+import { ErrorContainer } from '@/components/app/error-container'
+
 export const SearchRepos: FC<ButtonProps> = (props) => {
   const [repos, setRepos] = useState<Repo[]>([])
   const [query, setQuery] = useState('')
+  const [error, setError] = useState<null | ExpectedError>(null)
 
   const { repo, setRepo } = useSearch()
-  const { get, response, error, loading } = useFetch('https://api.github.com/search')
+  const { get, response, loading } = useFetch('https://api.github.com/search')
 
   const handleRepoClick = (repo: Repo) => {
     setRepo(repo)
@@ -24,8 +28,15 @@ export const SearchRepos: FC<ButtonProps> = (props) => {
   }
 
   const searchRepos = useDebouncedCallback(async (query: string) => {
-    const repos = await get(`/repositories?q=${encodeURIComponent(query)}&per_page=5`)
-    if (response.ok) setRepos(repos.items || [])
+    try {
+      const repos = await get(`/repositories?q=${encodeURIComponent(query)}&per_page=5`)
+      if (response.status !== 200) throw_error_by_status_code(response.status as HttpStatusCode)
+      if (error) setError(null)
+      setRepos(repos.items || [])
+    }
+    catch (error) {
+      if (isSentinelError(error)) setError(error)
+    }
   }, 300)
 
   const handleClear = () => {
@@ -104,7 +115,7 @@ export const SearchRepos: FC<ButtonProps> = (props) => {
                 )
               : error
                 ? (
-                    <p className='text-center text-red-500'>{error.message}</p>
+                    <ErrorContainer error={error} />
                   )
                 : repos.length === 0
                   ? (
