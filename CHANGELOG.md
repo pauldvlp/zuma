@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.2.3](https://github.com/pauldvlp/zuma/compare/v0.2.2...v0.2.3) (2025-07-19)
+
 ## <small>0.2.2 (2025-07-03)</small>
 
 * fix: update overrides ([22768da](https://github.com/pauldvlp/zuma/commit/22768da))
