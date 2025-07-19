@@ -47,6 +47,9 @@ importers:
       highlight.js:
         specifier: 11.11.1
         version: 11.11.1
+      http-sentinel:
+        specifier: ^1.0.9
+        version: 1.0.9
       lucide-react:
         specifier: 0.525.0
         version: 0.525.0(react@19.1.0)
@@ -2301,6 +2304,9 @@ packages:
   http-proxy-agent@7.0.2:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
     engines: {node: '>= 14'}
+
+  http-sentinel@1.0.9:
+    resolution: {integrity: sha512-IK+q68OHY7c89E5e1NLZJGm1LaAohx9p2rcbVCelaahGUZoIfvhX3rhts7JxS/yuPUiGaaod6B+MfkPLEalzIg==}
 
   https-proxy-agent@7.0.6:
     resolution: {integrity: sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==}
@@ -6051,6 +6057,8 @@ snapshots:
       debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
+
+  http-sentinel@1.0.9: {}
 
   https-proxy-agent@7.0.6:
     dependencies:
